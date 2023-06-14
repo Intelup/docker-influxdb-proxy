@@ -10,7 +10,7 @@ steps:
   - name: dockerhub
     image: plugins/docker
     settings:
-      repo: intelup/infxludb-proxy
+      repo: intelup/influxdb-proxy
       dockerfile: Dockerfile
       username:
         from_secret: docker_username
